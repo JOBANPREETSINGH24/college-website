@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<!-- This declares the document type and version as HTML5 -->
+
+<html lang="en">
+<!-- Starts the HTML document, language set to English -->
+
+<head>
+    <!-- Head section contains meta info, title, and styles -->
+    
+    <meta charset="UTF-8">
+    <!-- Sets character encoding to UTF-8 (supports all characters) -->
+    
+    <meta name="viewport" content="LABS IN SGAD COLLEGE. labs play a crucial role in enhancing the learning experience for students across various disciplines. These laboratories are specialized ...">
+    <!-- Makes the website responsive on all devices -->
+    
+    <title>ABC College</title>
+    <!-- The title of the web page (shown on browser tab) -->
+
+    <!-- Internal CSS styles to design the page -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            /* Sets the font for the body */
+            margin: 0;
+            /* Removes default margins */
+            background-color: #ffffff;
+            /* Light gray background color */
+            background-image: url("images/a2.jpg");
+            background-size: cover;          /* Image covers full body*/
+            background-repeat: no-repeat;    /* No tiling*/
+            background-position: center;     /* Centered */
+                    height: 880px;
+        }
+/* Header styling */
+header {
+    background-color: white; /* Header background */
+    padding: 10px;            /* Space inside header */
+}
+
+/*  Container for items inside header */
+.header-container {
+    display: flex;                 /* Enables flexbox layout */
+    align-items: center;           /* Vertically center items */
+    justify-content: space-between;/* Space between items */
+    flex-wrap: wrap;               /* Items wrap on small screens */
+}
+
+/* 🎓 Logo styling */
+.logo {
+    width: 150px;   /* Set logo width (increase/decrease size here) */
+    height: auto;   /* Auto height to maintain aspect ratio */
+    margin: 0 15px; /* Margin left and right for spacing */
+}
+
+/* 🏫 Text container styling */
+.header-text {
+    text-align: center; /* Center text inside this block */
+    flex: 2;             /* Take more space than others */
+}
+
+/* 🏫 Main heading (college name) */
+.header-text h1 {
+    margin: 0;          /* Remove default margin */
+    font-size: 28px;    /* Font size */
+    color: #002244;     /* Dark blue color */
+}
+
+/* 🏫 Subheading (affiliation) */
+.header-text p {
+    margin: 0;          /* Remove default margin */
+    font-size: 18px;    /* Slightly smaller font */
+    color: #004080;     /* Medium blue */
+}
+
+/* 🔍 Search box container */
+.search-box {
+    display: flex;      /* Flex layout for input and button */
+    align-items: center;/* Align items vertically */
+    gap: 15px;           /* Space between input and button */
+    flex: 1;            /* Take less space */
+}
+
+/* 🔍 Input field styling */
+.search-box input {
+    padding: 5px 10px;          /* Space inside input */
+    font-size: 14px;            /* Text size */
+    border: 1px solid #ccc;     /* Border */
+    border-radius: 4px;         /* Rounded corners */
+}
+
+/* 🔍 Search button styling */
+.search-box button {
+    padding: 5px 10px;          /* Space inside button */
+    background-color: #004080;  /* Button color */
+    color: rgb(255, 255, 255);               /* Text color */
+    border: none;               /* Remove border */
+    border-radius: 100px;         /* Rounded corners */
+    cursor: pointer;            /* Pointer cursor on hover */
+}
+
+/* 🔍 Button hover effect */
+.search-box button:hover {
+    background-color: #002244;  /* Darker blue on hover */
+}
+
+        
+        /* for changing the color of the background of the  HOME ABOUT US COURSES ADMISSIONS AND CONTACT*/
+        nav {
+            background-color: #004080;
+            /* Dark background for navigation bar */
+            overflow: hidden;
+            /* Prevents content from overflowing */
+        }
+
+        nav a {
+            float: left;
+            /* Aligns links to the left */
+            color: white;
+            /* Link text color */
+            text-align: center;
+            /* Centers text inside link */
+            padding: 14px 20px;
+            /* Padding around link text */
+            text-decoration: none;
+            /* Removes underline from links */
+        }
+
+        nav a:hover {
+            background-color: #90c3c3;
+            /* Changes background when mouse hovers */
+        }
+
+        .container {
+            padding: 20px;
+            /* Padding around content */
+        }
+        .about {
+            background-color: white;
+            /* White background for about section */
+            padding: 20px;
+            border-radius: 8px;
+            /* Rounded corners */
+        }
+
+        footer {
+            background-color: #004080;
+            /* Same dark blue as header */
+            color: white;
+            /* White text */
+            text-align: center;
+            /* Centered text */
+            padding: 15px 0;
+            /* Padding top and bottom */
+            position: fixed;
+            /* Footer stays at bottom of the screen */
+            bottom: 0;
+            /* Align to bottom */
+            width: 100%;
+            /* Full width */
+        }
+    </style>
+</head>
+
+<body>
+<!-- The body section holds everything visible on the webpage -->
+<header>
+    <div class="header-container">
+        
+        <!-- 🔍 Search box placed on the left side -->
+        <div class="search-box">
+            <input type="text" placeholder="Search..."> <!-- Search input field -->
+            <button>Search</button> <!-- Search button -->
+        </div>
+
+        <!-- 🎓 Logo in the center -->
+        <img src="images/a1.png" alt="College Logo" class="logo">
+
+        <!-- 🏫 College name and description on the right -->
+        <div class="header-text">
+            <h1>SGAD College Khadur Sahib</h1> <!-- Main heading -->
+            <p>Affiliated to GNDU Amritsar</p> <!-- Subheading -->
+        </div>
+
+    </div>
+</header>
+
+
+    <nav>
+        <!-- Navigation bar -->
+        <a href="#">Home</a>
+        <!-- Link to Home (currently placeholder #) -->
+        <a href="about.html">About Us</a>
+        <!-- Link to About Us -->
+        <a href="#">Courses</a>
+        <!-- Link to Courses -->
+        <a href="#">Admissions</a>
+        <!-- Link to Admissions -->
+        <a href="#">Contact</a>
+        <!-- Link to Contact -->
+    </nav>
+
+    <div class="container">
+        <!-- Main container for page content -->
+
+        <div class="about">
+            About section
+            <h2>About Us</h2>
+            <!-- Heading -->
+            <p>
+Blessed with eight gurus and established at holy place. Sri Guru Angad Dev College has promised to be show excellent education and prosperous life to the pupils.Sri Guru Angad Dev Ji blessed this place by formalising the Gurmukhi Alphabets(Lipi) with the intention to make use of it for thr purpose of imparting education.It was established late Baba Uttam Singh Ji in 1970 to mark/celebrate the 500 birth anniversary of Sri Guru Nanak Dev Ji.Presently,this institution is being run by Baba Sewa Singh Ji Kaar Sewa which is utilising innovative techniques and rich resources to make learning and teaching more glowing.
+Initially college was commenced with B.A Arts Stream, but today with the great vision of Plathora Baba Sewa Singh Ji various Courses related with every stream and degrees are being run. Courses at Post Graduate Level M.A Punjabi, MSc.IT, and PGDCA, at graduate level BSc.Computer Science, BSc.Economics, BCA, BBA, BSc.IT, B.Com and B.A are offered in this institution.Selective Subjects like BSc Non Medical, Music Saaj and Computer Application have begun/started by 2015-16. Institution is doing its excellent/outstanding job by beshowing various jobs oriented courses like electrician,refrigeration and air conditioning and diploma in stitching and tailoring which enables the capable students to get career in future. Similarly, In the year 2017-18 one more employment oriented course journalism and mass communication has introduced with great zeal of interest.
+For the realistic development of students/learners, sports and cultural activities play indispensable role in their life . This institution has won number of trophies in different competition at University level in the domain of cultural and sports programmes. Under the unit of NCC and NSS, pupils are being trained by indulging into various activities to develop their whole personality and respectful relationships with the society.
+Not only academics programmes with innovative teaching ways are imparted to students but also extention lectures are arranged for them to enhance the horizon of knowledge. Various inter-class competitions are organised to make them explore their hidden talent which assist them to develop holistically.
+One of the main objectives was to give higher education in disciplined and inclusive environment to the girls. To fulfill this dream girls hostel was build to facilitate them in the college campus. Apart from this, economical bus service is given to the learners of every route to get to college on time and easily.
+Institution is progressing quadruple the day double the nights in creating discipline, enhancing dedication and hard work.
+The proudest moment for the college is getting merit positions in university by the 10 students of different classes in the previous session. College has been announced to be “A Grade” by the NAAC in October 2016 for its well build structure , academic achievements, well organised examination, teacher’s abilities , sports and cultural activities. It’s proud moment in the history of college.
+            <!-- Description text -->
+        </div>
+    </div>
+
+    <footer>
+        <!-- Footer section -->
+        &copy; 2025 Sri Guru Angad Dev College Khadur Sahib| All Rights Reserved
+        <!-- Copyright -->
+    </footer>
+
+</body>
+</html>
+<!-- End of HTML document -->
+
+
