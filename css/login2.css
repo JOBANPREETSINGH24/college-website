@@ -1,3 +1,8 @@
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }   
         body {
             font-family: Arial, sans-serif;
             /* Sets the font for the body */
@@ -94,7 +99,7 @@
         }
 
         .welcome {
-            background-color: hsla(0, 4%, 5%, 0.773);
+            background-color: hsla(0, 4%, 5%, 0.547);
             /* White background for welcome box */
             padding: 2px;
             /* Padding inside the box */
@@ -131,7 +136,6 @@
 
 
 
-
 /* ------for blue footer section------- */
         .bottom-info {
             width: 100%;
@@ -155,7 +159,7 @@
             margin-bottom: 30px;
             letter-spacing: 1px;            
         }
-
+    
     /* -----for links in the 1st div------ */
         .col-1 a{
             display: block;
@@ -171,7 +175,7 @@
             border-radius: 4px;
             text-align: center;
             margin-top: 20px;
-            margin-bottom: 40px;
+            margin-bottom: 20px;
             border: none;
         }
         form button{

@@ -1,4 +1,9 @@
-        body {
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+                body {
             font-family: Arial, sans-serif;
             /* Sets the font for the body */
             margin: 0;
@@ -59,7 +64,7 @@
             letter-spacing: 2px;
         }
 
-        /* for changing the color of the background of the  HOME ABOUT US COURSES ADMISSIONS AND CONTACT*/
+                /* for changing the color of the background of the  HOME ABOUT US COURSES ADMISSIONS AND CONTACT*/
         nav {
             background-color: #004080;
             /* Dark background for navigation bar */
@@ -90,7 +95,6 @@
 
 
 
-
 /* ------for blue footer section------- */
         .bottom-info {
             width: 100%;
@@ -114,7 +118,7 @@
             margin-bottom: 30px;
             letter-spacing: 1px;            
         }
-
+    
     /* -----for links in the 1st div------ */
         .col-1 a{
             display: block;
@@ -130,7 +134,7 @@
             border-radius: 4px;
             text-align: center;
             margin-top: 20px;
-            margin-bottom: 40px;
+            margin-bottom: 20px;
             border: none;
         }
         form button{
