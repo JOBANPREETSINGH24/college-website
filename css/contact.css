@@ -58,6 +58,32 @@
             font-weight: bold;      /* Makes the text bold */
             letter-spacing: 2px;
         }
+        /* for changing the color of the background of the  HOME ABOUT US COURSES ADMISSIONS AND CONTACT*/
+        nav {
+            background-color: #004080;
+            /* Dark background for navigation bar */
+            overflow: hidden;
+            /* Prevents content from overflowing */
+        }
+
+        nav a {
+            float: left;
+            /* Aligns links to the left */
+            color: white;
+            /* Link text color */
+            text-align: center;
+            /* Centers text inside link */
+            padding: 14px 20px;
+            /* Padding around link text */
+            text-decoration: none;
+            /* Removes underline from links */
+        }
+
+        nav a:hover {
+            background-color: #90c3c3;
+            /* Changes background when mouse hovers */
+        }
+
 
 
 

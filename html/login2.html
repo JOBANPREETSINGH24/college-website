@@ -15,7 +15,8 @@
     
     <title>ABC College</title>
     <!-- The title of the web page (shown on browser tab) -->
-    <link rel="stylesheet" href="/college-frontend/css/courses.css">
+
+    <link rel="stylesheet" href="/college-frontend/css/login2.css">
     <!-- Internal CSS styles to design the page -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <!-- for the icons of that we used in the section footer -->
@@ -23,34 +24,22 @@
 
 </head>
 
-
-
-
-
-
 <body>
 <!-- The body section holds everything visible on the webpage -->
-<header>
-    <div class="header-container">
-        
-        <!-- 🔍 Search box placed on the left side -->
-        <div class="search-box">
-            <input type="text" placeholder="Search..."> <!-- Search input field -->
-            <button>Search</button> <!-- Search button -->
-        </div>
 
-        <!-- 🎓 Logo in the center -->
-        <img src="/college-frontend/images/a1.png" alt="College Logo" class="logo">
-
-        <!-- 🏫 College name and description on the right -->
-        <div class="header-text">
-            <h1>SGAD College Khadur Sahib</h1> <!-- Main heading -->
-            <p>Affiliated to GNDU Amritsar</p> <!-- Subheading -->
-        </div>
-
+    <header>
+<div class="header-container">
+    <div class="logo">
+        <img src="/college-frontend/images/a11.png" alt="College Logo">
     </div>
-</header>
+    <div class="header-text">
+        <h1>ਸ਼੍ਰੀ ਗੁਰੂ ਅੰਗਦ ਦੇਵ ਕਾਲਜ ਖਡੂਰ ਸਾਹਿਬ</h1>
+        <h2>SGAD College Khadur Sahib</h2>
+        <p>Affiliated to GNDU Amritsar</p>
+    </div>
+</div>
 
+</header>
     <nav>
         <!-- Navigation bar -->
         <a href="index.html">Home</a>
@@ -62,20 +51,37 @@
         <a href="admissions.html">Admissions</a>
         <!-- Link to Admissions -->
         <a href="contact.html">Contact</a>
-        <!-- Link to Contact -->
-        <a href="login1.html">tudent login</a>
+        <!-- Link to Contact -->       
+        <a href="login1.html">Student login</a>
         <!-- Link to log in as student -->
         <a href="login2.html">Teacher login</a>
         <!-- Link to login as teacher -->
-         
+
     </nav>
 
+    <div class="container">
+        <!-- Main container for page content -->
 
+        <div class="welcome" style=" color: aliceblue;">            
+             <br> <br>
+            <h2>TEACHER LOGIN</h2>
 
+                <form action="#" method="post">
+                
+                    <label>Username:</label><br>
+                        <div class=boxes>
+                        <input type="text" name="username" placeholder="Enter your name"><br>
+                        <label>Password:</label><br>
+                        <input type="password" name="password" placeholder="Enter your password"><br>
+                        <button type="submit">Login</button> <br> <br> <br> <br>
+                       
+                </form>
+            </div>
+        </div>
+    </div>
+<br><br>
 
-
-
-    <section class="bottom-info">
+<section class="bottom-info">
         <div class="col-1">
             <h5 style="font-size: 30px; font-weight: bold;"> USEFUL LINKS</h5>
             <a href="index.html">HOME</a>
@@ -87,7 +93,9 @@
         <div class="col-3">
             <h5 style="font-size: 30px; font-weight: bold;">CONTACT</h5>
             <P>Sri Guru Angad Dev college khadur sahib,<br> Dist-Tarntaran,Punjab,India </P>
-                  <div class="social-icons">
+            
+            <div class="social-icons">
+                
                 <a href="https://www.facebook.com" target="_blank">
                 <i class="fab fa-facebook"></i>
                 </a>
@@ -100,6 +108,7 @@
             </div>
         </div>
 
+        
         <div class="col-2">
             <h5 style="font-size: 30px; font-weight: bold;">SUBSCRIBE</h5>
             <form>

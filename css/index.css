@@ -22,13 +22,13 @@
             align-items: center;           /* Vertically center items */
         }
 
-        /* 🎓 Logo styling */
+        /*  Logo styling */
         .logo img {
             width: 150px;   /* Set logo width (increase/decrease size here) */
             height: auto;   /* Auto height to maintain aspect ratio */
         }
 
-        /* 🏫 Text container styling */
+        /*  Text container styling */
         .header-text {
               margin-left: 0px;          /* Space between logo and text */
         }

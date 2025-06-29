@@ -22,13 +22,13 @@
             align-items: center;           /* Vertically center items */
         }
 
-        /*  Logo styling */
+        /* 🎓 Logo styling */
         .logo img {
             width: 150px;   /* Set logo width (increase/decrease size here) */
             height: auto;   /* Auto height to maintain aspect ratio */
         }
 
-        /*  Text container styling */
+        /* 🏫 Text container styling */
         .header-text {
               margin-left: 0px;          /* Space between logo and text */
         }
@@ -58,7 +58,6 @@
             font-weight: bold;      /* Makes the text bold */
             letter-spacing: 2px;
         }
-
         /* for changing the color of the background of the  HOME ABOUT US COURSES ADMISSIONS AND CONTACT*/
         nav {
             background-color: #004080;
@@ -84,8 +83,46 @@
             background-color: #90c3c3;
             /* Changes background when mouse hovers */
         }
+         .container {
+            width: 500px;
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 40px;
+            text-align: center;
+            /* Padding around content */
+        }
 
+        .welcome {
+            background-color: hsla(0, 4%, 5%, 0.773);
+            /* White background for welcome box */
+            padding: 2px;
+            /* Padding inside the box */
+            margin-bottom: 20px;
+            /* Space below the box */
+            border-radius: 90px;
+            /* Rounded corners */
+            text-align: center;
+            letter-spacing: 5px;
+        }
 
+        .boxes input {
+        background-color: #ffffff;
+        padding: 10px 1px;
+        border: 1px solid #000000;
+        }
+        
+        .button {
+            color: white;            /* Text color */
+            padding: 10px 20px;        /* Padding inside the button */
+            border: none;              /* No border */
+            border-radius: 5px;        /* Rounded corners */
+            cursor: pointer;           /* Pointer cursor on hover */
+            font-size: 26px;           /* Font size */
+        }
+
+        .button:hover:hover {
+            background-color:#004080; /* Lighter blue on hover */
+        }  
 
 
 
