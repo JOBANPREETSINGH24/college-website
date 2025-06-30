@@ -21,19 +21,20 @@
 
         /*  Container for items inside header */
         .header-container {
-            background-color: white; /* Header background */
-            padding: 10px;               /* Adds space inside the header */
+            background-color:rgb(206, 146, 6); /* Header background */
+            padding: 10px 350px;               /* Adds space inside the header */
             display: flex;                 /* Enables flexbox layout */
             align-items: center;           /* Vertically center items */
         }
 
-        /*  Logo styling */
+        /* 🎓 Logo styling */
         .logo img {
+            border-radius: 100px;
             width: 150px;   /* Set logo width (increase/decrease size here) */
             height: auto;   /* Auto height to maintain aspect ratio */
         }
 
-        /*  Text container styling */
+        /* 🏫 Text container styling */
         .header-text {
               margin-left: 0px;          /* Space between logo and text */
         }
@@ -41,7 +42,7 @@
         /* 🏫 Main heading (college name) */
         .header-text h1 {
             margin: 0;          /* Remove default margin */
-            font-size: 50px;    /* Font size */
+            font-size: 35px;    /* Font size */
             color: #002244;     /* Dark blue color */
             font-weight: bold;          /* Makes the text bold */
             letter-spacing: 2px;
@@ -49,7 +50,7 @@
         }
        .header-text h2 {
             margin: 0;          /* Remove default margin */
-            font-size: 50px;    /* Font size */
+            font-size: 40px;    /* Font size */
             color: #002244;     /* Dark blue color */
             font-weight: bold;          /* Makes the text bold */
             letter-spacing: 2px;
@@ -58,13 +59,13 @@
         /* 🏫 Subheading (affiliation) */
         .header-text p {
             margin: 0;          /* Remove default margin */
-            font-size: 35px;    /* Slightly smaller font */
+            font-size: 25px;    /* Slightly smaller font */
             color: #002244;     /* Medium blue */
             font-weight: bold;      /* Makes the text bold */
             letter-spacing: 2px;
         }
 
-                /* for changing the color of the background of the  HOME ABOUT US COURSES ADMISSIONS AND CONTACT*/
+        /* for changing the color of the background of the  HOME ABOUT US COURSES ADMISSIONS AND CONTACT*/
         nav {
             background-color: #004080;
             /* Dark background for navigation bar */
@@ -83,6 +84,11 @@
             /* Padding around link text */
             text-decoration: none;
             /* Removes underline from links */
+        }
+        
+        nav a.active {
+            background-color: #002244; /* Darker shade */
+            color: #ffffff;            /* Keep text white */
         }
 
         nav a:hover {
