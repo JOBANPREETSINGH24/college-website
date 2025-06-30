@@ -199,25 +199,10 @@
             margin-bottom: 10px;   
         }
 
-        /*-----for editing the subscribe now block------  */
-        form input{
-            width: 300px;
-            height: 50px;
-            border-radius: 4px;
-            text-align: center;
-            margin-top: 20px;
-            margin-bottom: 20px;
-            border: none;
+        .col-2 .rounded-img {
+            border-radius: 100px;
         }
-        form button{
-            background: transparent;
-            border: 2px solid #fff;
-            color: #fff;
-            border-radius: 30px;
-            padding: 10px 30px ;
-            font-size: 15px;
-            cursor: pointer;
-        }
+
 
     /* ---- for editing the icons that we used in the col-2----- */
         .social-icons{
