@@ -111,24 +111,48 @@
         }
 
         .boxes input {
-        background-color: #ffffff;
-        padding: 10px 1px;
-        border: 1px solid #000000;
+            background-color: #ffffff;
+            padding: 10px 1px;
+            border: 1px solid #000000;
+            border-radius: 25px;  /* ✅ Makes the input box rounded */
+            width: 300px;
+            text-align: center;
         }
         
-        .button {
+        .button1 {
+            background-color: #5a5407;
             color: white;            /* Text color */
             padding: 10px 20px;        /* Padding inside the button */
             border: none;              /* No border */
-            border-radius: 5px;        /* Rounded corners */
+            border: 2px solid white;   
+            border-radius: 55px;        /* Rounded corners */
             cursor: pointer;           /* Pointer cursor on hover */
             font-size: 26px;           /* Font size */
+            text-decoration: none;            /* Remove underline for <a> */
         }
 
-        .button:hover:hover {
-            background-color:#004080; /* Lighter blue on hover */
+        .button1:hover:hover {
+            background-color:#03172a; /* Lighter blue on hover */
         }  
 
+        
+
+        .button2 {
+            background-color: rgb(0, 149, 255); 
+            color: rgb(2, 2, 2);            /* Text color */
+            padding: 5px 20px;        /* Padding inside the button */
+            border: none;              /* No border */
+            border: 2px solid white;   
+            border-radius: 10px;        /* Rounded corners */
+            cursor: pointer;           /* Pointer cursor on hover */
+            font-size: 16px;
+            font-weight: bold;           /* Font size */
+            text-decoration: none;            /* Remove underline for <a> */
+        }
+
+        .button2:hover:hover {
+            background-color:#4c545c; /* Lighter blue on hover */
+        }  
 
 
 
