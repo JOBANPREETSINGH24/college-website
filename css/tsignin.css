@@ -98,7 +98,8 @@
         }
 
         .welcome {
-            background-color: hsla(0, 4%, 5%, 0.547);
+            border: 3px solid rgb(172, 120, 47);
+            background-color: hsla(211, 29%, 39%, 0.626);
             /* White background for welcome box */
             padding: 2px;
             /* Padding inside the box */
@@ -110,13 +111,11 @@
             letter-spacing: 5px;
         }
 
-        
         .boxes input {
         background-color: #ffffff;
         padding: 10px 1px;
         border: 1px solid #000000;
         }
-        
         .boxes input {
             background-color: #ffffff;
             padding: 10px 1px;
@@ -127,9 +126,9 @@
         }
         
         .button1 {
-            background-color: #5a5407;
+            background-color: #0b493f;
             color: white;            /* Text color */
-            padding: 10px 20px;        /* Padding inside the button */
+            padding: 3px 10px;       /* Padding inside the button */
             border: none;              /* No border */
             border: 2px solid white;   
             border-radius: 55px;        /* Rounded corners */
@@ -145,7 +144,7 @@
         
 
         .button2 {
-            background-color: rgb(0, 149, 255); 
+            background-color: rgb(92, 116, 132); 
             color: rgb(2, 2, 2);            /* Text color */
             padding: 5px 20px;        /* Padding inside the button */
             border: none;              /* No border */
@@ -160,6 +159,7 @@
         .button2:hover:hover {
             background-color:#4c545c; /* Lighter blue on hover */
         }  
+
   
 
 
