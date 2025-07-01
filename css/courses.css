@@ -22,24 +22,26 @@
         /*  Container for items inside header */
         .header-container {
             background-color:rgb(206, 146, 6); /* Header background */
-            padding: 10px 350px;               /* Adds space inside the header */
+            padding: 10px 20px;                   /* Adds space inside the header */
             display: flex;                 /* Enables flexbox layout */
             align-items: center;           /* Vertically center items */
+            justify-content: center; /* centers horizontally */
         }
 
-        /* 🎓 Logo styling */
+        /*  Logo styling */
         .logo img {
+            padding: 10px;
             border-radius: 100px;
             width: 150px;   /* Set logo width (increase/decrease size here) */
             height: auto;   /* Auto height to maintain aspect ratio */
         }
 
-        /* 🏫 Text container styling */
+        /*  Text container styling */
         .header-text {
               margin-left: 0px;          /* Space between logo and text */
         }
 
-        /* 🏫 Main heading (college name) */
+        /*  Main heading (college name) */
         .header-text h1 {
             margin: 0;          /* Remove default margin */
             font-size: 35px;    /* Font size */
@@ -56,7 +58,7 @@
             letter-spacing: 2px;
         }
 
-        /* 🏫 Subheading (affiliation) */
+        /*  Subheading (affiliation) */
         .header-text p {
             margin: 0;          /* Remove default margin */
             font-size: 25px;    /* Slightly smaller font */
@@ -85,7 +87,7 @@
             text-decoration: none;
             /* Removes underline from links */
         }
-        
+
         nav a.active {
             background-color: #002244; /* Darker shade */
             color: #ffffff;            /* Keep text white */

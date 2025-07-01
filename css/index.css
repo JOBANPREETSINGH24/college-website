@@ -22,24 +22,26 @@
         /*  Container for items inside header */
         .header-container {
             background-color:rgb(206, 146, 6); /* Header background */
-            padding: 10px 350px;               /* Adds space inside the header */
+            padding: 10px 20px;                   /* Adds space inside the header */
             display: flex;                 /* Enables flexbox layout */
             align-items: center;           /* Vertically center items */
+            justify-content: center; /* centers horizontally */
         }
 
-        /* 🎓 Logo styling */
+        /*  Logo styling */
         .logo img {
+            padding: 10px;
             border-radius: 100px;
             width: 150px;   /* Set logo width (increase/decrease size here) */
             height: auto;   /* Auto height to maintain aspect ratio */
         }
 
-        /* 🏫 Text container styling */
+        /*  Text container styling */
         .header-text {
               margin-left: 0px;          /* Space between logo and text */
         }
 
-        /* 🏫 Main heading (college name) */
+        /*  Main heading (college name) */
         .header-text h1 {
             margin: 0;          /* Remove default margin */
             font-size: 35px;    /* Font size */
@@ -56,75 +58,7 @@
             letter-spacing: 2px;
         }
 
-        /* 🏫 Subheading (affiliation) */
-        .header-text p {
-            margin: 0;          /* Remove default margin */
-            font-size: 25px;    /* Slightly smaller font */
-            color: #002244;     /* Medium blue */
-            font-weight: bold;      /* Makes the text bold */
-            letter-spacing: 2px;
-        }
-
-        /* for changing the color of the background of the  HOME ABOUT US COURSES ADMISSIONS AND CONTACT*/
-        *{
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-                body {
-            font-family: Arial, sans-serif;
-            /* Sets the font for the body */
-            margin: 0;
-            /* Removes default margins */
-            background-color: #ffffff;
-            /* Light gray background color */
-            background-image: url("../images/a2.jpg");
-            background-size: cover;          /* Image covers full body*/
-            background-repeat: no-repeat;    /* No tiling*/
-            background-position: center;     /* Centered */
-                    height: 880px;
-            background-attachment: fixed;
-
-        }
-
-        /*  Container for items inside header */
-        .header-container {
-            background-color:rgb(206, 146, 6); /* Header background */
-            padding: 10px 350px;               /* Adds space inside the header */
-            display: flex;                 /* Enables flexbox layout */
-            align-items: center;           /* Vertically center items */
-        }
-
-        /* 🎓 Logo styling */
-        .logo img {
-            border-radius: 100px;
-            width: 150px;   /* Set logo width (increase/decrease size here) */
-            height: auto;   /* Auto height to maintain aspect ratio */
-        }
-
-        /* 🏫 Text container styling */
-        .header-text {
-              margin-left: 0px;          /* Space between logo and text */
-        }
-
-        /* 🏫 Main heading (college name) */
-        .header-text h1 {
-            margin: 0;          /* Remove default margin */
-            font-size: 35px;    /* Font size */
-            color: #002244;     /* Dark blue color */
-            font-weight: bold;          /* Makes the text bold */
-            letter-spacing: 2px;
-            text-shadow: 3px 3px 5px #dfae0f;    /* 1 3px is for horizontal offset-> rgt by 3px, 2 3px for vertically offset ->down by 3px and 5px is for blur radius (soft/fuzzy) etc*/
-        }
-       .header-text h2 {
-            margin: 0;          /* Remove default margin */
-            font-size: 40px;    /* Font size */
-            color: #002244;     /* Dark blue color */
-            font-weight: bold;          /* Makes the text bold */
-            letter-spacing: 2px;
-        }
-
-        /* 🏫 Subheading (affiliation) */
+        /*  Subheading (affiliation) */
         .header-text p {
             margin: 0;          /* Remove default margin */
             font-size: 25px;    /* Slightly smaller font */
@@ -153,16 +87,18 @@
             text-decoration: none;
             /* Removes underline from links */
         }
+
         nav a.active {
             background-color: #002244; /* Darker shade */
             color: #ffffff;            /* Keep text white */
         }
 
-
         nav a:hover {
             background-color: #90c3c3;
             /* Changes background when mouse hovers */
         }
+
+        
 
     
 

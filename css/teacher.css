@@ -99,73 +99,20 @@
         }
 
 
-        
-         .container {
-            width: 500px;
-            margin: 20px auto;
-            padding: 20px;
-            border-radius: 40px;
-            text-align: center;
+        .container {
+            padding: 100px;
             /* Padding around content */
         }
-
-        .welcome {
-            border: 3px solid rgb(20, 86, 123);
-            background-color: hsla(251, 20%, 16%, 00.886);
-            /* White background for welcome box */
-            padding: 2px;
-            /* Padding inside the box */
-            margin-bottom: 20px;
-            /* Space below the box */
-            border-radius: 90px;
+        .Teacher {
+            background-color: rgb(255, 255, 255);
+            /* White background for about section */
+            padding: 20px;
+            border-radius: 8px;
             /* Rounded corners */
-            text-align: center;
-            letter-spacing: 5px;
         }
 
-        .boxes input {
-            background-color: #ffffff;
-            padding: 10px 1px;
-            border: 1px solid #000000;
-            border-radius: 25px;  /* ✅ Makes the input box rounded */
-            width: 300px;
-            text-align: center;
-        }
-        
-        .button1 {
-            background-color: #767119;
-            color: white;            /* Text color */
-            padding: 3px 10px;          /* Padding inside the button */
-            border: none;              /* No border */
-            border: 2px solid white;   
-            border-radius: 55px;        /* Rounded corners */
-            cursor: pointer;           /* Pointer cursor on hover */
-            font-size: 26px;           /* Font size */
-            text-decoration: none;            /* Remove underline for <a> */
-        }
 
-        .button1:hover:hover {
-            background-color:#03172a; /* Lighter blue on hover */
-        }  
 
-        
-
-        .button2 {
-            background-color: rgb(0, 149, 255); 
-            color: rgb(2, 2, 2);            /* Text color */
-            padding: 5px 20px;        /* Padding inside the button */
-            border: none;              /* No border */
-            border: 2px solid white;   
-            border-radius: 10px;        /* Rounded corners */
-            cursor: pointer;           /* Pointer cursor on hover */
-            font-size: 16px;
-            font-weight: bold;           /* Font size */
-            text-decoration: none;            /* Remove underline for <a> */
-        }
-
-        .button2:hover:hover {
-            background-color:#4c545c; /* Lighter blue on hover */
-        }  
 
 
 
@@ -200,14 +147,9 @@
             color: #efefef;
             margin-bottom: 10px;   
         }
-
         .col-2 .rounded-img {
             border-radius: 100px;
         }
-        .col-2 .rounded-img {
-            border-radius: 100px;
-        }
-
 
     /* ---- for editing the icons that we used in the col-2----- */
         .social-icons{
