@@ -98,8 +98,20 @@
             /* Changes background when mouse hovers */
         }
 
-
-
+        /* -------------body of the courses------------------ */
+        .container{
+            padding: 50px ;
+        }
+        .welcome {
+            background-color: white;
+            /* White background for welcome box */
+            padding: 20px ;
+            /* Padding inside the box */
+            margin-bottom: 20px;
+            /* Space below the box */
+            border-radius: 8px;
+            /* Rounded corners */
+        }
 
 
 
