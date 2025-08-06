@@ -112,8 +112,11 @@
             border-radius: 8px;
             /* Rounded corners */
         }
-
-
+        .course-list {
+            text-align: center;
+            /* Centered text for course list */
+            
+        }
 
 /* ------for blue footer section------- */
         .bottom-info {
