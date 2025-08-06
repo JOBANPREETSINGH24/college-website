@@ -14,7 +14,7 @@
             background-size: cover;          /* Image covers full body*/
             background-repeat: no-repeat;    /* No tiling*/
             background-position: center;     /* Centered */
-                    height: 880px;
+            height: 880px;
             background-attachment: fixed;
 
         }

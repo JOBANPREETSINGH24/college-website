@@ -3,7 +3,7 @@
             padding: 0;
             box-sizing: border-box;
         }
-                body {
+            body {
             font-family: Arial, sans-serif;
             /* Sets the font for the body */
             margin: 0;
@@ -103,7 +103,7 @@
             padding: 50px ;
         }
         .welcome {
-            background-color: white;
+            background-color: rgb(255, 255, 255);
             /* White background for welcome box */
             padding: 20px ;
             /* Padding inside the box */
@@ -112,11 +112,14 @@
             border-radius: 8px;
             /* Rounded corners */
         }
-        .course-list {
+        .course{
             text-align: center;
             /* Centered text for course list */
-            
         }
+        .courses-ol {
+            list-style-position: inside;  /* Numbers stay inside the text block */
+        }
+
 
 /* ------for blue footer section------- */
         .bottom-info {
