@@ -86,6 +86,11 @@
             /* Padding around link text */
             text-decoration: none;
             /* Removes underline from links */
+            border-right: 1px solid #ffffff;
+            /* Adds a right border to each link */
+            border-top: 1px solid #ffffff; 
+            /* Adds a top border to each link */
+
         }
 
         nav a.active {
@@ -127,7 +132,7 @@
         }
         .btn {
             
-            background-color: #22303e;
+            background-color: #ff3a04;
             /* Button background color */
             color: white;
             /* Button text color */
