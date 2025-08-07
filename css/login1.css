@@ -144,7 +144,7 @@
             text-decoration: none;            /* Remove underline for <a> */
         }
 
-        .button1:hover:hover {
+        .button1:hover {
             background-color:#03172a; /* Lighter blue on hover */
         }  
 

@@ -110,7 +110,6 @@
             border-radius: 8px;
             /* Rounded corners */
         }
-
         .Principal{
             background-color: white;
             /* White background for welcome box */
@@ -182,14 +181,6 @@
             /* Centered text */
             padding: 15px 0;
             /* Padding top and bottom */
-            
-            /* position: fixed; */
-            
-            /* Footer stays at bottom of the screen */
-            
-            /* bottom: 0; */
-            
-            /* Align to bottom */
             width: 100%;
             /* Full width */
         }

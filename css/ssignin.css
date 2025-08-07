@@ -142,14 +142,14 @@
             color: white;            /* Text color */
             padding: 3px 10px;        /* Padding inside the button */
             border: none;              /* No border */
-            border: 2px solid white;   
+            border: 2px solid white; /* Border color */
             border-radius: 55px;        /* Rounded corners */
             cursor: pointer;           /* Pointer cursor on hover */
             font-size: 26px;           /* Font size */
             text-decoration: none;            /* Remove underline for <a> */
         }
 
-        .button1:hover:hover {
+        .button1:hover {
             background-color:#03172a; /* Lighter blue on hover */
         }  
 
@@ -236,14 +236,6 @@
             /* Centered text */
             padding: 15px 0;
             /* Padding top and bottom */
-            
-            /* position: fixed; */
-            
-            /* Footer stays at bottom of the screen */
-            
-            /* bottom: 0; */
-            
-            /* Align to bottom */
             width: 100%;
             /* Full width */
         }
