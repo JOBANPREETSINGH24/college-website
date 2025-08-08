@@ -101,12 +101,16 @@
             background-color: #90c3c3;
             /* Changes background when mouse hovers */
         }
-
-
-
-
-
-
+        .container{
+            padding: 50px;
+            /* Adds padding around the content */
+        }
+        .admission-container{
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+        }
 
 /* ------for blue footer section------- */
         .bottom-info {

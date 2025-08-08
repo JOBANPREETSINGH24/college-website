@@ -141,8 +141,7 @@
             text-decoration: none;
             /* No underline */
             border-radius: 95px;
-            /* Rounded corners */
-            animation: blink 1.5s infinite;
+            /* Rounded corners */            animation: blink 1.5s infinite;
         }
         @keyframes blink { /* Animation for blinking effect */ /* @keyframes defines the animation */
             0%, 100% {
