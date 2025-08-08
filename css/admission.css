@@ -112,6 +112,24 @@
             border-radius: 8px;
         }
 
+            .admission-table {
+        width: 100%;
+        font-size: 20px;
+        text-align: center;
+        border-collapse: collapse;
+        border: 3px solid black;
+    }
+
+    .admission-table th,
+    .admission-table td {
+        border: 1px solid black;
+        padding: 10px;
+    }
+
+    .admission-table th {
+        font-size: 30px;
+    }
+
 /* ------for blue footer section------- */
         .bottom-info {
             width: 100%;
