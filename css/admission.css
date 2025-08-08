@@ -112,13 +112,13 @@
             border-radius: 8px;
         }
 
-            .admission-table {
-        width: 100%;
-        font-size: 20px;
-        text-align: center;
-        border-collapse: collapse;
-        border: 3px solid black;
-    }
+        .admission-table {
+        width: 100%;/* Full width of the container */
+        font-size: 20px; /* Font size for table text */
+        text-align: center; /* Center text in table cells */
+        border-collapse: collapse;/* Collapses borders for a cleaner look */
+        border: 3px solid black;/* Outer border for the table */
+        }
 
     .admission-table th,
     .admission-table td {
