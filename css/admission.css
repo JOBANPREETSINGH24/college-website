@@ -112,23 +112,42 @@
             border-radius: 8px;
         }
 
-        .admission-table {
-        width: 100%;/* Full width of the container */
-        font-size: 20px; /* Font size for table text */
-        text-align: center; /* Center text in table cells */
-        border-collapse: collapse;/* Collapses borders for a cleaner look */
-        border: 3px solid black;/* Outer border for the table */
-        }
 
-    .admission-table th,
+
+    .table-responsive {
+        width: 100%; /* Full width for the table container */
+        overflow-x: auto; /* Enables horizontal scrolling if needed */
+    }
+
+    .admission-table {
+        width: 100%; /* Full width for the table */
+        border-collapse: collapse; /* Merges table borders */
+        font-size: 18px; /* Base font size for the table */
+        min-width: 900px; /* Ensures the table doesn't shrink too much */
+        border: 3px solid black; /* Adds a solid border around the table */
+    }
+
+    .admission-table th,  
     .admission-table td {
-        border: 1px solid black;
-        padding: 10px;
+        border: 1px solid black;  /* Adds a solid border to table cells */
+        padding: 10px;  /* Adds padding inside table cells */
+        text-align: center;    /* Centers text in table cells */
     }
 
-    .admission-table th {
-        font-size: 30px;
+    @media (max-width: 768px) /* Responsive design for tablets and smaller screens , @media rule in CSS is used to apply diferent styles based on the screen size  */
+       {
+        .admission-table {
+            font-size: 16px; /* Smaller font size for better readability */
+            min-width: 600px; /* Adjusts minimum width for smaller screens */
+        }
     }
+
+    @media (max-width: 480px) { /* Responsive design for mobile devices */
+        .admission-table {
+            font-size: 14px; /* Further reduces font size for mobile */
+        }
+    }
+
 
 /* ------for blue footer section------- */
         .bottom-info {
