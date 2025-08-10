@@ -147,6 +147,41 @@
             font-size: 14px; /* Further reduces font size for mobile */
         }
     }
+    .button {
+        text-align: center;
+        /* Center the button */
+        margin-top: 20px;
+        /* Space above the button */
+    }
+    .btn{
+        background-color: #ff3a04;
+        /* Button background color */
+        color: white;
+        /* Button text color */
+        padding: 10px 20px;
+        /* Padding inside the button */
+        border: none;
+        /* Removes default border */
+        border-radius: 5px;
+        /* Rounded corners for the button */
+        cursor: pointer;
+        /* Changes cursor to pointer on hover */
+        text-decoration: none;
+        /* Removes underline from button text */
+        animation: blink 1s infinite; /* Animation for background color change */
+    }
+    .btn:hover {
+        background-color: #1c1fba;
+        /* Changes background color on hover */
+    }
+    @keyframes blink { /* Animation for blinking effect */
+        0%, 100% {
+            opacity: 1;; /* Original color */
+        }
+        50% {
+            opacity: 0;; /* Color during blink */
+        }
+    }
 
 
 /* ------for blue footer section------- */
