@@ -122,7 +122,27 @@
             border-radius: 8px;
             /* Rounded corners */
         }
-        
+        input[type="text"] {
+            width: 250px;   /* width of the box */
+            height: 35px;   /* height of the box */
+            padding: 5px;   /* inner spacing */
+            font-size: 16px;    /* Font size */
+        }
+        input[type="email"]
+        {
+            width: 250px;   /* width of the box */
+            height: 35px;   /* height of the box */
+            padding: 5px;   /* inner spacing */
+            font-size: 16px;    /* Font size */
+        }
+        input[type="tel"] {
+            width: 250px;   /* width of the box */
+            height: 35px;   /* height of the box */
+            padding: 5px;   /* inner spacing */
+            font-size: 16px;    /* Font size */
+        }
+
+
         .sub {
             text-align: center; /* Centers text inside the form */
             height: 50px;           /* optional: height to show vertical centering */
