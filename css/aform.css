@@ -141,7 +141,12 @@
             padding: 5px;   /* inner spacing */
             font-size: 16px;    /* Font size */
         }
-
+        input[type="date"] {
+            width: 250px;   /* width of the box */
+            height: 35px;   /* height of the box */
+            padding: 5px;   /* inner spacing */
+            font-size: 16px;    /* Font size */
+        }
 
         .sub {
             text-align: center; /* Centers text inside the form */
