@@ -102,8 +102,9 @@
             /* Changes background when mouse hovers */
         }
         .container{
-               padding: 0px;
-               /* Adds padding around the container */            
+               padding: 30px;
+               /* Adds padding around the container */   
+               margin: auto;         
         }
 
         .from-container{
@@ -121,7 +122,17 @@
             /* Centers items horizontally */
             border-radius: 8px;
             /* Rounded corners */
+            
         }
+
+        .formbox{
+            padding: 50px;
+            border-radius: 50px;
+            border: 2px solid #d34f03;
+            background-color: #9bb3a1;
+            margin-bottom: 50px;
+        }
+
         input[type="text"] {
             width: 250px;   /* width of the box */
             height: 35px;   /* height of the box */
@@ -146,6 +157,46 @@
             height: 35px;   /* height of the box */
             padding: 5px;   /* inner spacing */
             font-size: 16px;    /* Font size */
+            margin-top: 0%
+        }
+        input[type="text2"]{
+            width: 300px;
+            padding: 10px;
+            height: 70px;
+            padding: 5px;
+            font-size: 16px;
+           
+        }
+
+     /* Style the label */
+        label[for="gender"] {
+            font-size: 16px;
+
+        }
+
+        /* Style the select box */
+        select#Gender { 
+            padding: 2px 12px;
+            font-size: 16px;
+            border: 2px solid #555;
+            border-radius: 8px;
+            background-color: #f9f9f9;
+            color: #1d256c;
+            cursor: pointer;
+        }
+
+        label[for="Subject"]{
+            font-size: 16px;
+        }
+
+        select#Subject{
+            padding: 2px 12px;
+            font-size: 16px;
+            border: 2px solid #555;
+            border-radius: 8px;
+            background-color: #ffffff;
+            color: #1d256c;
+            cursor: pointer;
         }
 
         .sub {
