@@ -157,7 +157,7 @@
             height: 35px;   /* height of the box */
             padding: 5px;   /* inner spacing */
             font-size: 16px;    /* Font size */
-            margin-top: 0%
+            color: #555;
         }
         input[type="text2"]{
             width: 300px;
